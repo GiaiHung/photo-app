@@ -9,7 +9,7 @@ import UnsplashImage from './components/UnsplashImage'
 // https://api.unsplash.com/photos/?client_id=HsoQn09fqyvd2xLUc0-3uKNN39yO8EgtN9Y3egh29L0&page=1
 const clientId = `?client_id=${process.env.REACT_APP_ACCESSKEY}`
 const mainURL = 'https://api.unsplash.com/photos/'
-const searchURL = 'https://api.unsplash.com/search/photos'
+const searchURL = 'https://api.unsplash.com/search/photos/'
 
 function App() {
   const [loading, setLoading] = useState(false)
